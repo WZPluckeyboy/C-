@@ -1,0 +1,18 @@
+//求任意数的阶乘
+import java.util.Scanner;
+public class qiuhe{
+public static int factor(int n){
+int result =1;
+int i= 0;
+for(i=1;i<=n;i++){
+result *=i;
+}
+return result;
+}
+public static void main(String[] args){
+Scanner input = new Scanner(System.in);
+int i = input.nextInt();
+int a=factor(i);
+System.out.println(a);
+}
+}
